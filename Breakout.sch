@@ -1149,7 +1149,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="JP6" gate="A" pin="8"/>
 <wire x1="129.54" y1="5.08" x2="121.92" y2="5.08" width="0.1524" layer="91"/>
 <label x="121.92" y="5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
-<label x="121.92" y="0" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP8" gate="A" pin="3"/>
@@ -1167,7 +1166,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="JP6" gate="A" pin="10"/>
-<wire x1="129.54" y1="0" x2="121.92" y2="0" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="0" x2="129.54" y2="0" width="0.1524" layer="91"/>
+<label x="121.92" y="0" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="0" class="0">
@@ -1548,11 +1548,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="JP6" gate="A" pin="7"/>
 <wire x1="129.54" y1="7.62" x2="121.92" y2="7.62" width="0.1524" layer="91"/>
 <label x="121.92" y="7.62" size="1.27" layer="95" rot="R180" xref="yes"/>
-<label x="121.92" y="2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP6" gate="A" pin="9"/>
 <wire x1="129.54" y1="2.54" x2="121.92" y2="2.54" width="0.1524" layer="91"/>
+<label x="121.92" y="2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="AGND" class="0">
@@ -1618,6 +1618,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,93.98,76.2,U$1,3.3V,3V,,,"/>
+<approved hash="113,1,-7.85707,63.6312,JP1,,,,,"/>
+<approved hash="113,1,-2.77707,7.75123,JP2,,,,,"/>
+<approved hash="113,1,129.777,63.6312,JP5,,,,,"/>
+<approved hash="113,1,129.777,45.8512,JP3,,,,,"/>
+<approved hash="113,1,155.177,48.3912,JP4,,,,,"/>
+<approved hash="113,1,129.777,12.8312,JP6,,,,,"/>
+<approved hash="113,1,155.177,75.0612,JP7,,,,,"/>
+<approved hash="113,1,155.177,24.2612,JP8,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
